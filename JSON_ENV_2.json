@@ -1,0 +1,76 @@
+[
+  {
+    "envios": [
+      {
+        "fecha_envio": "2023-01-15",
+        "id_producto": "P3T65F",
+        "descripcion_producto": "Pantalla de ordenador LG 27 pulgadas",
+        "cantidad": 87,
+        "almacen_Destino": "BCN"
+      },
+      {
+        "fecha_envio": "2023-02-28",
+        "id_producto": "W2Q89S",
+        "descripcion_producto": "Pantalla de ordenador Samsung 24 pulgadas",
+        "cantidad": 63,
+        "almacen_Destino": "MAD"
+      },
+      {
+        "fecha_envio": "2023-03-10",
+        "id_producto": "G9H2A6",
+        "descripcion_producto": "Pantalla de ordenador Dell 32 pulgadas",
+        "cantidad": 42,
+        "almacen_Destino": "VLN"
+      },
+      {
+        "fecha_envio": "2023-04-05",
+        "id_producto": "K5D7Y2",
+        "descripcion_producto": "Pantalla de ordenador HP 21.5 pulgadas",
+        "cantidad": 91,
+        "almacen_Destino": "SEV"
+      },
+      {
+        "fecha_envio": "2023-05-20",
+        "id_producto": "N6R4E1",
+        "descripcion_producto": "Pantalla de ordenador Acer 27 pulgadas",
+        "cantidad": 18,
+        "almacen_Destino": "BCN"
+      },
+      {
+        "fecha_envio": "2023-06-12",
+        "id_producto": "M8P2T7",
+        "descripcion_producto": "Pantalla de ordenador ASUS 23.8 pulgadas",
+        "cantidad": 76,
+        "almacen_Destino": "MAD"
+      },
+      {
+        "fecha_envio": "2023-07-25",
+        "id_producto": "V3B6G9",
+        "descripcion_producto": "Pantalla de ordenador Lenovo 27 pulgadas",
+        "cantidad": 29,
+        "almacen_Destino": "VLN"
+      },
+      {
+        "fecha_envio": "2023-08-14",
+        "id_producto": "S1F4Z8",
+        "descripcion_producto": "Pantalla de ordenador BenQ 24 pulgadas",
+        "cantidad": 53,
+        "almacen_Destino": "SEV"
+      },
+      {
+        "fecha_envio": "2023-09-02",
+        "id_producto": "R7K9L2",
+        "descripcion_producto": "Pantalla de ordenador ViewSonic 32 pulgadas",
+        "cantidad": 37,
+        "almacen_Destino": "BCN"
+      },
+      {
+        "fecha_envio": "2023-10-18",
+        "id_producto": "B5X8N1",
+        "descripcion_producto": "Pantalla de ordenador MSI 27 pulgadas",
+        "cantidad": 81,
+        "almacen_Destino": "MAD"
+      }
+    ]
+  }
+]

@@ -1,0 +1,34 @@
+[
+  {
+    "envios": [
+      {
+        "fecha_envio": "2023-01-15",
+        "id_producto": "P3T65F",
+        "descripcion_producto": "Procesador Intel Core i7",
+        "cantidad": 87,
+        "almacen_Destino": "BCN"
+      },
+      {
+        "fecha_envio": "2023-02-28",
+        "id_producto": "W2Q89S",
+        "descripcion_producto": "Tarjeta gráfica NVIDIA GeForce RTX 3080",
+        "cantidad": 63,
+        "almacen_Destino": "MAD"
+      },
+      {
+        "fecha_envio": "2023-03-10",
+        "id_producto": "G9H2A6",
+        "descripcion_producto": "Disco duro SSD Samsung 1TB",
+        "cantidad": 42,
+        "almacen_Destino": "VLN"
+      },
+      {
+        "fecha_envio": "2023-04-05",
+        "id_producto": "K5D7Y2",
+        "descripcion_producto": "Monitor LG UltraWide 34\"",
+        "cantidad": 91,
+        "almacen_Destino": "SEV"
+      }
+    ]
+  }
+]

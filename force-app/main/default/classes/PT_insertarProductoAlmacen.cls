@@ -9,7 +9,7 @@
  * 1.0   26-05-2023   IULIAN PREDA VLASCEANU   Initial Version
 **/
 public with sharing class PT_insertarProductoAlmacen{
-    public void insertProductosProvisionales(Map<String, PT_productoProvisional__c> mapProductosAlmacen){
+    public void insertProductosAlmacen(Map<String, PT_productoProvisional__c> mapProductosAlmacen){
 
         Map<String, PT_almacenes__c> mapProductosAInsertar = new Map<String, PT_almacenes__c>();
         Map<String, Product2> mapProductoParent = new Map<String, Product2>();

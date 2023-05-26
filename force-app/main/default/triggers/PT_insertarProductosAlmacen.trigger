@@ -25,5 +25,5 @@ trigger PT_insertarProductosAlmacen on PT_productoProvisional__c(after update){
 
     PT_insertarProductoAlmacen instanciaInsert = new PT_insertarProductoAlmacen();
 
-    instanciaInsert.insertProductosProvisionales(productoAprobadoAnteriormenteMap);
+    instanciaInsert.insertProductosAlmacen(productoAprobadoAnteriormenteMap);
 } 

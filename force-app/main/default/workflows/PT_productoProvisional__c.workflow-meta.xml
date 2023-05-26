@@ -10,4 +10,14 @@
         <protected>false</protected>
         <reevaluateOnChange>false</reevaluateOnChange>
     </fieldUpdates>
+    <fieldUpdates>
+        <fullName>PT_artRechazado</fullName>
+        <field>PT_estadoAprobacion__c</field>
+        <literalValue>RECH</literalValue>
+        <name>Articulo Rechazado</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
 </Workflow>

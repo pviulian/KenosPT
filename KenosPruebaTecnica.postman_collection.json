@@ -1,0 +1,112 @@
+{
+	"info": {
+		"_postman_id": "81a4f580-c765-4af0-bf16-90856ca8441b",
+		"name": "KenosPruebaTecnica",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "27636742"
+	},
+	"item": [
+		{
+			"name": "https://login.salesforce.com/services/oauth2/token",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "username",
+							"value": "ddlogistic@yopmail.com",
+							"description": "USUARIO DE SALESFORCE",
+							"type": "default"
+						},
+						{
+							"key": "password",
+							"value": "Ddl0#gistic1BpExMkp0158BB58GLdwm8v3qK",
+							"description": "CONTRASEÑA + TOKEN DE SEGURIDAD",
+							"type": "default"
+						},
+						{
+							"key": "grant_type",
+							"value": "password",
+							"type": "default"
+						},
+						{
+							"key": "client_id",
+							"value": "3MVG98Gq2O8Po4ZkgEElcETiQV4.QxYwSLN2I_9w26VBAJIeWylTays_UI9vz5EkpfX9Wt6hrfc7DUZ2Q7CYJ",
+							"description": "ClientID de la Connected App",
+							"type": "default"
+						},
+						{
+							"key": "client_secret",
+							"value": "09A7D4F55B5BB1D79E81D62BFA319645D7FDC3C06228774C5B272FC0168A4D22",
+							"description": "ClientSecret de la Connected App",
+							"type": "default"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://login.salesforce.com/services/oauth2/token",
+					"protocol": "https",
+					"host": [
+						"login",
+						"salesforce",
+						"com"
+					],
+					"path": [
+						"services",
+						"oauth2",
+						"token"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://empathetic-shark-8im5y9-dev-ed.trailblaze.my.salesforce.com/services/apexrest/envioProductos",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer 00D7R000004NKXA!ARMAQPckSpxWxOuRb7ujU_BdqYh3rj7DtL5h4sus_G3GS7SkvzR5fS6JbSYl.LzY.VMnNQ1DYyPbrishxlho2344ywtORZfb",
+						"type": "default",
+						"description": "Concatenación Bearer + access_token"
+					},
+					{
+						"key": "funcion",
+						"value": "recepcionProductos",
+						"type": "default",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "[{\r\n  \"envios\": [\r\n    {\r\n      \"fecha_envio\": \"2023-01-15\",\r\n      \"id_producto\": \"P3T65F\",\r\n      \"descripcion_producto\": \"Pantalla de ordenador LG 27 pulgadas\",\r\n      \"cantidad\": 87,\r\n      \"almacen_Destino\": \"BCN\"\r\n    },\r\n    {\r\n      \"fecha_envio\": \"2023-02-28\",\r\n      \"id_producto\": \"W2Q89S\",\r\n      \"descripcion_producto\": \"Pantalla de ordenador Samsung 24 pulgadas\",\r\n      \"cantidad\": 63,\r\n      \"almacen_Destino\": \"MAD\"\r\n    },\r\n    {\r\n      \"fecha_envio\": \"2023-03-10\",\r\n      \"id_producto\": \"G9H2A6\",\r\n      \"descripcion_producto\": \"Pantalla de ordenador Dell 32 pulgadas\",\r\n      \"cantidad\": 42,\r\n      \"almacen_Destino\": \"VLN\"\r\n    },\r\n    {\r\n      \"fecha_envio\": \"2023-04-05\",\r\n      \"id_producto\": \"K5D7Y2\",\r\n      \"descripcion_producto\": \"Pantalla de ordenador HP 21.5 pulgadas\",\r\n      \"cantidad\": 91,\r\n      \"almacen_Destino\": \"SEV\"\r\n    },\r\n    {\r\n      \"fecha_envio\": \"2023-05-20\",\r\n      \"id_producto\": \"N6R4E1\",\r\n      \"descripcion_producto\": \"Pantalla de ordenador Acer 27 pulgadas\",\r\n      \"cantidad\": 18,\r\n      \"almacen_Destino\": \"BCN\"\r\n    },\r\n    {\r\n      \"fecha_envio\": \"2023-06-12\",\r\n      \"id_producto\": \"M8P2T7\",\r\n      \"descripcion_producto\": \"Pantalla de ordenador ASUS 23.8 pulgadas\",\r\n      \"cantidad\": 76,\r\n      \"almacen_Destino\": \"MAD\"\r\n    },\r\n    {\r\n      \"fecha_envio\": \"2023-07-25\",\r\n      \"id_producto\": \"V3B6G9\",\r\n      \"descripcion_producto\": \"Pantalla de ordenador Lenovo 27 pulgadas\",\r\n      \"cantidad\": 29,\r\n      \"almacen_Destino\": \"VLN\"\r\n    },\r\n    {\r\n      \"fecha_envio\": \"2023-08-14\",\r\n      \"id_producto\": \"S1F4Z8\",\r\n      \"descripcion_producto\": \"Pantalla de ordenador BenQ 24 pulgadas\",\r\n      \"cantidad\": 53,\r\n      \"almacen_Destino\": \"SEV\"\r\n    },\r\n    {\r\n      \"fecha_envio\": \"2023-09-02\",\r\n      \"id_producto\": \"R7K9L2\",\r\n      \"descripcion_producto\": \"Pantalla de ordenador ViewSonic 32 pulgadas\",\r\n      \"cantidad\": 37,\r\n      \"almacen_Destino\": \"BCN\"\r\n    },\r\n    {\r\n      \"fecha_envio\": \"2023-10-18\",\r\n      \"id_producto\": \"B5X8N1\",\r\n      \"descripcion_producto\": \"Pantalla de ordenador MSI 27 pulgadas\",\r\n      \"cantidad\": 81,\r\n      \"almacen_Destino\": \"MAD\"\r\n    }\r\n  ]\r\n}\r\n]\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://empathetic-shark-8im5y9-dev-ed.trailblaze.my.salesforce.com/services/apexrest/envioProductos",
+					"protocol": "https",
+					"host": [
+						"empathetic-shark-8im5y9-dev-ed",
+						"trailblaze",
+						"my",
+						"salesforce",
+						"com"
+					],
+					"path": [
+						"services",
+						"apexrest",
+						"envioProductos"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
